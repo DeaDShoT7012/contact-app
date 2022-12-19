@@ -1,0 +1,36 @@
+<div class="container mt-4 title">
+    <div class="row">
+       <div class="col">
+             <h1>
+                 <i class="fa-solid fa-eye"></i>&nbsp;
+                 View Contact Page
+             </h1>
+             <p style="text-align: justify;">
+                 This is dummy data: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum dignissimos id ab quaerat quidem sit saepe molestiae vitae cupiditate, velit doloribus, ut sed facilis, ipsam fugiat tempore praesentium quasi!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum dignissimos id ab quaerat quidem sit saepe molestiae vitae cupiditate, velit doloribus, ut sed facilis, ipsam fugiat tempore praesentium quasi!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum dignissimos id ab quaerat quidem sit saepe molestiae vitae cupiditate, velit doloribus, ut sed facilis, ipsam fugiat tempore praesentium quasi!
+             </p>
+       </div>
+    </div>
+
+    <!-- view contact details -->
+
+    <div class="container mt-4 mb-5">
+        <div class="row border p-5 align-items-center">
+            <div class="col-md-4">
+                <!-- contact image -->
+                <img [src]="contact.photo" alt="no image" width="200px">
+                <br>
+                <a routerLink="/" class="btn btn-warning ms-5 mt-2"><i class="fa-solid fa-circle-left"></i>Go Back</a>
+            </div>
+            <div class="col-md-8">
+                <!-- contact details -->
+                <ul class="list-group">
+                    <li class="list-group-item">Name: <span><b>{{contact.name}}</b></span></li>
+                    <li class="list-group-item">Email: <span><b>{{contact.email}}</b></span></li>
+                    <li class="list-group-item">Mobile: <span><b>{{contact.mobile}}</b></span></li>
+                    <li class="list-group-item">Company: <span><b>{{contact.company}}</b></span></li>
+                    <li class="list-group-item">Title: <span><b>{{contact.title}}</b></span></li>
+                    <li class="list-group-item">Group:<span><b>{{groupName}}</b></span> </li>
+                  </ul>
+            </div>
+        </div>
+    </div>

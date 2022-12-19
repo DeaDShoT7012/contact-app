@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Rubik+Spray+Paint&display=swap');
+
+h1{
+   font-family: 'Rubik Spray Paint', cursive;
+ }
+
+.contact_image{
+  width: 130px;
+  border-radius: 50%;
+} 
