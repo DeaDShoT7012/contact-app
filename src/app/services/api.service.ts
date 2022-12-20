@@ -40,5 +40,11 @@ addcontact(contactbody:any){
 
 }
 
+
+//funtion for delete contact
+deletecontact(contactId:any){
+  this.http.delete(`${this.baseUrl}/${contactId}`)
+}
+
 }
 

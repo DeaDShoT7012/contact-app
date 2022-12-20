@@ -13,7 +13,14 @@ export class ContactManagerComponent implements OnInit {
   searchkey:string=''
   constructor(private api:ApiService){}
 
+
   ngOnInit():void{
+  this.getallcontact()
+
+
+  }
+
+  getallcontact(){
     this.api.getallcontacts().subscribe((data:any)=>{
       console.log(data);
       this.allContacts=data
@@ -24,8 +31,9 @@ export class ContactManagerComponent implements OnInit {
   //search
   search(event:any){
     console.log(event.target.value);
-    this.searchkey=event.target.value
-    
+    this.searchkey=event.target.value 
   }
+
+  
 
 }
