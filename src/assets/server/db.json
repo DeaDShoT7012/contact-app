@@ -12,7 +12,7 @@
     },
     {
       "id": "ca2",
-      "name": "Rock",
+      "name": "Black adam",
       "email": "Shanna@melissa.tv",
       "photo": "https://w0.peakpx.com/wallpaper/606/704/HD-wallpaper-black-adam.jpg",
       "mobile": "9876543211",
@@ -29,16 +29,6 @@
       "company": "Romaguera-Jacobson",
       "title": "Tester",
       "groupId": "3"
-    },
-    {
-      "id": "ca4",
-      "name": "Angelina",
-      "email": "Julianne.OConner@kory.org",
-      "photo": "https://tse3.mm.bing.net/th?id=OIP.JAKbO1hgHRWAwjGNNVAgnAHaIr&pid=Api&P=0",
-      "mobile": "9876543213",
-      "company": "Robel-Corkery",
-      "title": "Developer",
-      "groupId": "4"
     },
     {
       "id": "ca5",
@@ -81,14 +71,14 @@
       "groupId": "4"
     },
     {
-      "id": "ca9",
-      "name": "Harlly quinn",
-      "photo": "https://c4.wallpaperflare.com/wallpaper/879/96/967/harley-quinn-margot-robbie-makeup-women-wallpaper-preview.jpg",
-      "email": "harllyquinn@gmail.com",
-      "mobile": "9898676655",
-      "company": "DC",
-      "title": "Developer",
-      "groupId": "1"
+      "id": "2",
+      "name": "Thor",
+      "photo": "https://wallpaperaccess.com/full/1487570.jpg",
+      "email": "godofthunder@gmail.com",
+      "mobile": "7856864973",
+      "company": "MCU",
+      "title": "Point Breaker",
+      "groupId": "2"
     }
   ],
   "groups": [

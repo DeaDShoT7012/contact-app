@@ -37,13 +37,12 @@ getallgroups(){
 //funtion for adding new contact to baseurl
 addcontact(contactbody:any){
  return this.http.post(this.baseUrl,contactbody)
-
 }
 
 
 //funtion for delete contact
 deletecontact(contactId:any){
-  this.http.delete(`${this.baseUrl}/${contactId}`)
+ return this.http.delete(`${this.baseUrl}/${contactId}`)
 }
 
 }
