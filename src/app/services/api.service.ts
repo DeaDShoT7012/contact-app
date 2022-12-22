@@ -43,6 +43,13 @@ addcontact(contactbody:any){
 //funtion for delete contact
 deletecontact(contactId:any){
  return this.http.delete(`${this.baseUrl}/${contactId}`)
+
+}
+
+
+//update contact details according user select
+updatecontact(contactId:any,contactbody:any){
+ return this.http.put(`${this.baseUrl}/${contactId}`,contactbody)
 }
 
 }
